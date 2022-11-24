@@ -76,7 +76,7 @@ development:
 # URL environment variable explicitly:
 #
 production:
- url: <%= ENV["UNIVER_DATABASE_URL"] %>
+ url: <%= ENV["DATABASE_URL"] %>
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
